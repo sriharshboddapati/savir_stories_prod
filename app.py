@@ -98,3 +98,4 @@ if st.button("Generate Categorized Timeline"):
     else:
         st.write("No milestones logged yet. Start by adding one above!")
     # Footer
+ 
