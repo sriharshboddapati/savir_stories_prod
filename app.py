@@ -10,7 +10,7 @@ import logging
 from utils import categorize_and_make_timeline, save_milestone, show_milestones, add_timeline_styles, render_timeline, save_timeline, show_timeline_from_db
 
 st.set_page_config(page_title="Savir Stories", layout="wide")
-#Addition to push to GitHub
+#testing GIt 
 #styling section, needs to be moved once we go into production
 st.markdown("""
 <style>
