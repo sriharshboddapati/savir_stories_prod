@@ -58,6 +58,7 @@ st.subheader("Add a new milestone")
 
 # Form inputs
 milestone_date = datetime.now().strftime("%Y%m%d_%H%M%S")
+milestones = []
 photo = st.file_uploader("Upload a photo", type=["png", "jpg", "jpeg"])
 # Save button
 if st.button("Save Photo(s)"):
@@ -77,7 +78,6 @@ if st.button("Save timeline"):
 # Display existing milestones
 if st.button("Show Milestones"):
     st.title("🍼 Savir Stories: Milestone Timeline")
-    milestones = []
     milestones = show_milestones()
     if milestones: 
         add_timeline_styles()
